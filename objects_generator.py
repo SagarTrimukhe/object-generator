@@ -3,15 +3,9 @@ import string
 import json
 
 # Inputs from user
-sample_input_obj = {
-    "slin":"abcd",
-    "name":"asdad",
-    "description":"asdadasdd",
-    "unit_cost":12,
-    "units":"asdasd",
-    "quantity":0,
-    "subtotal":0,
-    }
+input_json_file = open('input.json')
+
+sample_input_obj = json.loads(input_json_file.read())
 
 required_num_of_obj = 5
 required_string_len = 10
@@ -93,7 +87,6 @@ def random_objects_generator(sample_obj, string_len=required_string_len, int_len
     return new_obj
 
 
-# Computation
 output_arr = []
 
 for i in range(required_num_of_obj):
