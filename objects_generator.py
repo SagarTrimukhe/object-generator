@@ -1,15 +1,19 @@
 import random
 import string
 import json
+import configparser
+import sys
+
+config = configparser.ConfigParser()
+config.read('config.ini')
 
 # Inputs from user
 input_json_file = open('input.json')
 
 sample_input_obj = json.loads(input_json_file.read())
 
-required_num_of_obj = 5
-required_string_len = 10
-required_int_len = 2
+required_string_len = int(config['LENGTH']['String'])
+required_int_len = int(config['LENGTH']['String'])
 
 
 def get_element_type(element):
@@ -21,7 +25,7 @@ def get_element_type(element):
         return "bool"
     elif type(element) == type([]):
         return "list"
-    elif type(element) == type({}):
+    elif type({}) == type(element):
         return 'dict'
 
 
@@ -87,11 +91,22 @@ def random_objects_generator(sample_obj, string_len=required_string_len, int_len
     return new_obj
 
 
-output_arr = []
+def main(required_num_of_obj):
+    output_arr = []
 
-for i in range(required_num_of_obj):
-    output_arr.append(random_objects_generator(sample_input_obj))
+    for i in range(required_num_of_obj):
+        output_arr.append(random_objects_generator(sample_input_obj))
 
-file = open('output.json', 'w')
-file.write(json.dumps(output_arr))
-file.close()
+    file = open('output.json', 'w')
+    file.write(json.dumps(output_arr))
+    file.close()
+
+if __name__ == '__main__':
+    try:
+        main(int(sys.argv[1]))
+    except Exception as e:
+        print(e)
+        print("Please pass the number of objects required.")
+        print("Usage: python object-generator <number of obj required>")
+        print("Eg: python object-generator 10")
+

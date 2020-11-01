@@ -1,9 +1,5 @@
 {
     "slin":"abcd",
     "name":"asdad",
-    "description":"asdadasdd",
-    "unit_cost":12,
-    "units":"asdasd",
-    "quantity":0,
-    "subtotal":true
+    "description":"asdadasdd"
 }
