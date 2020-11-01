@@ -13,7 +13,7 @@ input_json_file = open('input.json')
 sample_input_obj = json.loads(input_json_file.read())
 
 required_string_len = int(config['LENGTH']['String'])
-required_int_len = int(config['LENGTH']['String'])
+required_int_len = int(config['LENGTH']['Integer'])
 
 
 def get_element_type(element):

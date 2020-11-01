@@ -1,5 +1,11 @@
 {
-    "slin":"abcd",
-    "name":"asdad",
-    "description":"asdadasdd"
+    "name":"Amar",
+    "age": 12,
+    "id": "abcd",
+    "address": {
+      "house_no": 12,
+      "street": "abcd",
+      "state": "xyz",
+      "pincode": 50
+    }
 }

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fc00bb5-da44-4696-bcaf-459b55f793e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input.json" beforeDir="false" afterPath="$PROJECT_DIR$/input.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objects_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects_generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/output.json" afterDir="false" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/objects_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
+            <state relative-caret-position="300">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -27,20 +28,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="354">
+                <caret line="105" column="23" lean-forward="true" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/output.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="44" lean-forward="true" selection-start-column="44" selection-end-column="44" />
+              <caret column="33" lean-forward="true" selection-end-column="292" />
             </state>
           </provider>
         </entry>
@@ -48,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="100">
+              <caret line="5" column="21" lean-forward="true" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -63,9 +76,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config" />
-        <option value="$PROJECT_DIR$/input.json" />
-        <option value="$PROJECT_DIR$/objects_generator.py" />
         <option value="$PROJECT_DIR$/config.ini" />
+        <option value="$PROJECT_DIR$/objects_generator.py" />
+        <option value="$PROJECT_DIR$/input.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -125,11 +139,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12701613" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12836021" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32954547" />
       <window_info anchor="bottom" id="Python Console" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -142,7 +157,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.4139785" />
+      <window_info anchor="right" id="Terminal" order="3" weight="0.4139785" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -151,8 +166,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/objects_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
+        <state relative-caret-position="300">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -161,22 +176,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="20">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="44" lean-forward="true" selection-start-column="44" selection-end-column="44" />
+          <caret column="33" lean-forward="true" selection-end-column="292" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="21" lean-forward="true" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="354">
+            <caret line="105" column="23" lean-forward="true" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
