@@ -2,7 +2,7 @@
 Want to quickly generate an array of objects of required structure?
 Here is a Python script!!
 
-###How to use it?
+### How to use it?
 
 Step 1:  Put the JSON object in the input.json file
 
@@ -15,7 +15,7 @@ Note: Remember to pass the number of objects as arguments.
 Check the output.json file. You will have the required array.
 
 
-##Examples 
+### Examples 
 1. Simple object
 
 input.json file
@@ -34,7 +34,7 @@ Integer=2
 ```
 
 output.json file WILL CONTAIN following result after running
-######python objects_generator.py 3
+###### python objects_generator.py 3
 ```
 [
 	{
@@ -70,7 +70,7 @@ Integer=2
 ```
 
 output.json file WILL CONTAIN following result after running
-######python objects_generator.py 2
+###### python objects_generator.py 2
 ```
 [
 	{
@@ -118,7 +118,7 @@ Integer=2
 ```
 
 output.json file WILL CONTAIN following result after running
-######python objects_generator.py 2
+###### python objects_generator.py 2
 ```
 [
 	{
