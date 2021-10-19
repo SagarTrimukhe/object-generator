@@ -118,3 +118,32 @@ Integer=2
 ```
 
 
+output.json file WILL CONTAIN following result after running
+###### python objects_generator.py 2
+```
+[
+	{
+		"name": "digMPayNaG",
+		"age": 94,
+		"id": "ryExYQXmVj",
+		"address": {
+			"house_no": 80,
+			"street": "EXaGZEYFdb",
+			"state": "rWSaHSRPXQ",
+			"pincode": 68
+		}
+	},
+	{
+		"name": "ZkvKysKRqs",
+		"age": 54,
+		"id": "zqZUJgVQNG",
+		"address": {
+			"house_no": 38,
+			"street": "qwRZHJWKNz",
+			"state": "vuxJfwqfvX",
+			"pincode": 93
+		}
+	}
+	
+]
+```
