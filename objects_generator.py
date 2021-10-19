@@ -78,9 +78,9 @@ def random_objects_generator(sample_obj, string_len=required_string_len, int_len
     for k in obj_keys:
         element_type = get_element_type(sample_obj[k])
         if element_type == 'string':
-            new_obj[k] = random_string_gen(string_len)
+            new_obj[k] = random_string_gen(len(sample_obj[k]))
         elif element_type == 'int':
-            new_obj[k] = random_integer_gen(int_len)
+            new_obj[k] = random_integer_gen(len(str(sample_obj[k])))
         elif element_type == 'bool':
             new_obj[k] = random_boolean_gen()
         elif element_type == 'list':
