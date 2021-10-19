@@ -117,6 +117,7 @@ String=10
 Integer=2
 ```
 
+
 output.json file WILL CONTAIN following result after running
 ###### python objects_generator.py 2
 ```
@@ -146,5 +147,3 @@ output.json file WILL CONTAIN following result after running
 	
 ]
 ```
-
-
